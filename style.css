@@ -1,0 +1,50 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #abc4ff;
+    margin: 0px;
+    font-size: 1.25em;
+}
+
+body{
+    font-family: 'Prata', serif;
+    color: black;
+    background-color: #e2eafc;
+}
+nav {
+    text-align: center;
+    background-color: #ccdbfd;
+    padding: 10pt;
+
+}
+nav a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-size: 1em;
+}
+nav li {
+    list-style: none;
+    display: inline;
+   
+    
+}
+ul{
+    margin: 0%;
+    padding: 0;
+}
+p {
+    font-size: 1em;
+}
+.container{
+    width: 100%;
+}
+.likes {
+    width: 50%;
+    float: left;
+}
+.dislikes {
+    width: 50%;
+    float: left;
+}
