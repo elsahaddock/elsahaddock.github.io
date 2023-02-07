@@ -48,6 +48,17 @@ p {
     float: left;
     padding: 0.7em;
 }
-.footer {
-   text-align: ;
-}
+    a link {
+        color: black
+    
+    }
+
+    a :hover{
+        color: pink
+    }
+
+    a :visited {
+        color: white
+    }
+
+ 
