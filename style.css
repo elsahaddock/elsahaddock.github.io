@@ -41,24 +41,31 @@ p {
 .likes {
     width: 40%;
     float: left;
-    padding: 0.7em;
+    padding: 1em;
 }
 .dislikes {
     width: 40%;
     float: left;
     padding: 0.7em;
 }
-    a link {
-        color: black
     
+    /*univisited link*/
+     a link {
+        color: black
     }
-
+    /*mouse over link*/
     a :hover{
         color: pink
     }
-
+    /*visited link*/
     a :visited {
         color: white
     }
+    /*selecte link*/
+    a:active {
+        color: blue;
+    }
 
- 
+ .footer {
+     position: fixed;bottom: auto;
+ }
