@@ -66,6 +66,8 @@ p {
         color: blue;
     }
 
- .footer {
-     position: fixed;bottom: auto;
- }
+.footer {
+    width: 40%;
+    
+}
+
