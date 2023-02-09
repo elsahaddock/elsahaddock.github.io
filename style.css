@@ -1,75 +1,95 @@
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #abc4ff;
-    margin: 0px;
-    font-size: 1.25em;
-}
 
-body{
-    font-family: 'Prata', serif;
-    color: black;
-    background-color: #e2eafc;
+#wrapper {
+    width: 80%;
+    margin:auto;
 }
-nav {
-    text-align: center;
-    background-color: #ccdbfd;
-    padding: 10pt;
-}
-nav a {
-    padding: 0;
-    text-decoration: none;
-    color: black;
-    margin: 20px;
-    font-size: 1em;
-}
-nav li {
-    list-style: none;
-    display: inline; 
-}
-ul{
-    margin: 0%;
-    padding: 0;
-}
-p {
-    font-size: 1em;
-}
-.container{
-    width: 100%;
-    height: 100%;
-}
-.likes {
-    width: 40%;
-    float: left;
-    padding: 1em;
-}
-.dislikes {
-    width: 40%;
-    float: left;
-    padding: 1em;
-}
+    .header {
+        padding: 40px;
+        text-align: center;
+        background: #abc4ff;
+        margin:0 ;
+        font-size: 1.25em;
+    }
+        /*univisited link*/
+        a link {
+            color: black
+        }
+        /*mouse over link*/
+        a :hover{
+            color: pink
+        }
+        /*visited link*/
+        a :visited {
+            color: white
+        }
+        /*selecte link*/
+        a:active {
+            color: blue;
+        }
 
-    
-    /*univisited link*/
-     a link {
-        color: black
+    body{
+        font-family: 'Prata', serif;
+        color: black;
+        background-color: #e2eafc;
+        
     }
-    /*mouse over link*/
-    a :hover{
-        color: pink
+    nav {
+        z-index: 1;
+        text-align: center;
+        background-color: #ccdbfd;
+        padding: 10pt;
     }
-    /*visited link*/
-    a :visited {
-        color: white
+    nav img{
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 100px;
     }
-    /*selecte link*/
-    a:active {
-        color: blue;
+    nav a {
+        padding: 0;
+        text-decoration: none;
+        color: black;
+        margin: 20px;
+        font-size: 1em;
+    }
+    nav li {
+        list-style: none;
+        display: inline; 
+    }
+    ul{
+        margin: 0%;
+        padding: 0;
+    }
+    p {
+        font-size: 1em;
+    }
+    #container{
+        width: 100%;
+        height: 100%;
+    }
+    .likes {
+        width: 50%;
+        float: left;
+        padding: 1em;
+        margin: 0%;
+        padding: 0;
+    }
+    .dislikes {
+        width: 50%;
+        float: left;
+        margin: 0%;
+        padding: 0;
     }
 
-.footer {
- clear: both;
- padding: 10pt;
-    
-}
+    .footer {
+    clear: both;
+    padding: 10pt;  
+    }
 
+    img{
+        display: block;
+        width: 50%;
+        padding-top: 5%;
+        overflow: hidden;
+        position: static;
+    }
