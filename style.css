@@ -93,3 +93,7 @@
         overflow: hidden;
         position: static;
     }
+    @media only screen and (max-width: 400px) {
+        .column { width: 100%; float: left;
+            margin: 0%; }
+        } /* smaller than mobile */
