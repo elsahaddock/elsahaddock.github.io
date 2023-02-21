@@ -1,0 +1,39 @@
+#wrapper {
+    width: 80%;
+    margin:auto;
+}
+
+.header {
+    padding: 40px;
+    text-align: left;
+    margin:0 ;
+    font-size: 5em;
+    color: #4361ee;
+}
+
+nav {
+    z-index: 1;
+    text-align: left;
+    padding: 10pt;
+    font-size: 1.25em;
+}
+
+.likes {
+    width: 50%;
+    float: left;
+    padding: 1em;
+    margin: 0%;
+    padding: 0;
+}
+
+.dislikes {
+    width: 50%;
+    float: left;
+    margin: 0%;
+    padding: 0;
+}
+
+.footer {
+    clear: both;
+    padding: 10pt;  
+    }
