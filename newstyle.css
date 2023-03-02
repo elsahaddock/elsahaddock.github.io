@@ -49,3 +49,28 @@ h3{
     clear: both;
     margin:20px;  
     }
+/* The animation code */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  h2 {
+    width: 350px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+h2:hover {
+    font-size: 2em;
+    transition: ease-in-out 0.5s;
+
+
+}
+
+
