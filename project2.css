@@ -2,6 +2,9 @@
     height: 100%;
     margin:auto;
 }
+.font{
+font-family: 'Inconsolata', monospace;
+}
 h1{
     font-size: 4em;
     color: white;
@@ -38,6 +41,7 @@ p {
     background:white;
     min-height: 100vh;
     min-width: 100vh;
+    font-family: 'Inconsolata', monospace;
   }
 
   div {
