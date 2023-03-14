@@ -89,21 +89,3 @@ img{
     position: static;
 }
   
-  .image1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: auto;
-    size-adjust: 500px;
-    display: block;
-    justify-content: left;
-
-  }
-  
-  .image2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    max-width: 1000px;
-    float: center;
-  }
