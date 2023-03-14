@@ -49,6 +49,7 @@ p {
     box-sizing: border-box;
     border-width: 100vw;
   }
+
   .horizontal-scroll-wrapper {
     position: absolute;
     display: inline-block;
@@ -67,7 +68,7 @@ p {
     padding: 40px;
     max-width: 100vw;
     margin-bottom: 0%;
-    background: pink;
+    background: black;
     transform: rotate(90deg);
     transform-origin: right top;
   }
@@ -87,3 +88,22 @@ img{
     overflow: hidden;
     position: static;
 }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    size-adjust: 500px;
+    display: block;
+    justify-content: left;
+
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 1000px;
+    float: center;
+  }
